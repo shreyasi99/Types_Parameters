@@ -29,12 +29,7 @@ pipeline {
                             )
                         ])
                     ])
-                     stages {
-        stage('Example') {
-            steps {
-                echo "PARAMETER_01: ${params.PARAMETER_01}"
-                sh "echo PARAMETER_01: ${params.PARAMETER_01}"
-                sh 'echo PARAMETER_01: $PARAMETER_01'
+                    
             }
         }
     }
