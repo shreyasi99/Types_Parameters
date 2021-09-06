@@ -12,7 +12,7 @@ pipeline {
                             ),
                             booleanParam(
                                 defaultValue: true, 
-                                description: '', 
+                                
                                 name: 'BOOLEAN'
                             ),
                             text(
@@ -25,7 +25,7 @@ pipeline {
                             string(
                                 defaultValue: 'scriptcrunch', 
                                 name: 'STRING-PARAMETER', 
-                                trim: true
+                                
                             )
                         ])
                     ])
