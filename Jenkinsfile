@@ -25,7 +25,7 @@ pipeline {
                             ),
                             string(
                                 defaultValue: 'scriptcrunch', 
-                                name: 'STRING-PARAMETER', 
+                                name: 'STRING-PARAMETER' 
                                 
                             )
                         ])
