@@ -16,3 +16,22 @@ pipeline {
                                 
                                 name: 'BOOLEAN'
                             ),
+                            text(
+                                defaultValue: '''
+                                this is a multi-line 
+                                string parameter example
+                                ''', 
+                                 name: 'MULTI-LINE-STRING'
+                            ),
+                            string(
+                                defaultValue: 'scriptcrunch', 
+                                name: 'STRING-PARAMETER', 
+                                
+                            )
+                        ])
+                    ])
+                }
+            }
+        }
+    }   
+}
